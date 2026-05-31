@@ -1,5 +1,5 @@
 const { Client, GatewayIntentBits, AttachmentBuilder, EmbedBuilder } = require('discord.js');
-const { createCanvas, loadImage } = require('canvas');
+const { createCanvas, loadImage } = require('@napi-rs/canvas');
 const path = require('path');
 
 const client = new Client({
