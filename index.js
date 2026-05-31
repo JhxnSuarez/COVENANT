@@ -15,8 +15,8 @@ const client = new Client({
 
 // ============================================================
 // CONFIGURACIÓN — CAMBIA SOLO ESTAS 2 LÍNEAS
-const TOKEN = 'MTQ5NjE2NDM5Mjc5NzA3NzUzNA.G4Oj6P.MotDA_Oq2z3deYv4O3dZnO8II7sbkUrF-rRhrQ';
-const WELCOME_CHANNEL_ID = ';1510322061023776929';
+const TOKEN = process.env.TOKEN;
+const WELCOME_CHANNEL_ID = process.env.CHANNEL_ID;
 // ============================================================
 
 const pendingMembers = new Map();
